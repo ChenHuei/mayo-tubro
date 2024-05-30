@@ -9,7 +9,7 @@ export function Button(props: ButtonProps): JSX.Element {
 
 	return (
 		<button
-			className={`ui-p-4 ui-border ui-border-[#eee] ui-rounded ui-cursor-pointer ui-z-10 ${className}`}
+			className={`ui-p-4 ui-border ui-border-[#eee] ui-rounded ui-cursor-pointer ${className}`}
 			type="button"
 			{...otherProps}>
 			{children}
