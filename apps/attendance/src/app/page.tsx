@@ -9,7 +9,7 @@ export default function Home(): ReactNode {
 				onClick={() => {
 					console.log('attendance');
 				}}>
-				click me
+				attendance
 			</Button>
 		</main>
 	);
